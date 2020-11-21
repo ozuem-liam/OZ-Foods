@@ -2,24 +2,150 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: url(../images/OZ.png) no-repeat;
+  background: url(../images/ensalada\ 2.jpg) no-repeat;
   background-size: cover;
 }
 
+.sign {
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  border-bottom: ;
+  color: white;
+  font-family: sans-serif;
+  border-bottom: 2px solid #fff700;
+}
+
+.welcome-div {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 8%;
+  left: 60%;
+  color: white;
+  font-family: sans-serif;
+}
+
 .sign-up-box {
-  width: 280px;
+  width: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  background-color: rgba(00, 00, 00, 0.5);
+}
+
+.sign-up-box label {
+  font-size: 12px;
+  padding-left: 3px;
 }
 
 .text-box {
   width: 100%;
   overflow: hidden;
-  font-size: 20px;
-  padding: 8px 0;
-  margin: 8px 0;
+  font-size: 30px;
+  padding: 4px 0;
+  margin: 4px 0;
   border-bottom: 1px solid #fff700;
+}
+
+.text-box input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+}
+
+.sign-up-btn {
+  border: 2px solid #000000;
+  border-radius: 2em;
+  background-color: #fff700;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  top: 72%;
+  left: 35%;
+}
+
+.sign-up-btn:hover {
+  background-color: #3b3a08;
+  transition-delay: -5s;
+}
+
+.forget-passsword a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  font-weight: bolder;
+  font-size: 16px;
+  top: 64%;
+  left: 55%;
+}
+
+.forget-passsword a:hover {
+  color: #3b3a08;
+  transition-delay: -5s;
+}
+.log-in a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  top: 3%;
+  left: 95%;
+}
+
+.log-in a:hover {
+  color: #fff700;
+  transition-delay: -5s;
+}
+
+.logo img {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+}
+
+/* Log in page */
+
+.log-in-btn {
+  border: 2px solid #000000;
+  border-radius: 2em;
+  background-color: #fff700;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  top: 60%;
+  left: 35%;
+}
+
+.log-in-btn:hover {
+  background-color: #3b3a08;
+  transition-delay: -5s;
+}
+
+.sign-up a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  top: 3%;
+  left: 90%;
+}
+
+.sign-up a:hover {
+  color: #fff700;
+  transition-delay: -5s;
 }
