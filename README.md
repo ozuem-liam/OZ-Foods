@@ -1,4 +1,4 @@
 # OZ-Foods
 
 Ordering food web application
-https://travis-ci.com/ozuem-liam/OZ-Foods.svg?branch=main
+[![Build Status](https://travis-ci.com/ozuem-liam/OZ-Foods.svg?branch=first_branch)](https://travis-ci.com/ozuem-liam/OZ-Foods)
